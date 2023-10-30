@@ -42,7 +42,7 @@
 ├── tmp
 ├── usr
 └── var
-``
+```
 #### Process
 Is `a file` generating when a programme is loaded in RAM. Each process have its own memory, id, metadata.  
 #### Threading
