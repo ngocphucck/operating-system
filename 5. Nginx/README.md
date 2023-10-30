@@ -72,3 +72,4 @@ If not active, run: ```$ sudo systemctl start nginx```
     ```
 - Reload nginx: ```$ sudo systemctl reload ngix```
 - Connect to the address in web browser: ```$ https://localhost:443/```
+8. We can use `proxy` to mapping ports.
