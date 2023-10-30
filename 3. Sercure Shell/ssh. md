@@ -1,0 +1,23 @@
+1. Generate public key, private key: ```$ ssh-keygen``` 
+2. Add public key to a file `~/.ssh/authorized_keys`
+3. Config ssh to connect without password, with a specific understandable name (~/.ssh/config): 
+```
+Host gw1
+     Hostname ip_address
+     User phu
+     Port 1234
+```
+4. SSH agent forwarding:
+Your computer have public keys of computer 1 and computer 2.
+Your computer ssh to computer 1, can computer 1 ssh to computer 2. Posible! Use your computer as a bridge device.
+
+Config ssh computer as following:
+```
+Host *
+    ServerAliveIntervel 300
+    ServerAliveCountMax 6
+    ForwardAgent yes
+    AddKeysToAgent yes
+    UseKeychain yes
+    IdentityFile ~/.ssh/id_rsa
+```

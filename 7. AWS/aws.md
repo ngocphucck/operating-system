@@ -1,0 +1,1 @@
+Create a free account at: https://aws.amazon.com/free/. We can create an instance and do all previous sections to public a website.
