@@ -16,6 +16,7 @@
 - Step 5: Computer asigns a permission to OS.
 
 #### File tree
+```
 .
 ├── bin -> usr/bin
 ├── boot: includes kernel
@@ -41,7 +42,7 @@
 ├── tmp
 ├── usr
 └── var
-
+``
 #### Process
 Is `a file` generating when a programme is loaded in RAM. Each process have its own memory, id, metadata.  
 #### Threading
